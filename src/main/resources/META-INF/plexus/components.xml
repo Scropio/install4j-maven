@@ -1,0 +1,14 @@
+<component-set>
+  <components>
+    <component>
+      <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
+      <role-hint>exe</role-hint>
+      <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
+      <configuration>
+        <type>exe</type>
+        <includesDependencies>true</includesDependencies>
+        <addedToClasspath>false</addedToClasspath>
+      </configuration>
+    </component>
+  </components>
+</component-set>
